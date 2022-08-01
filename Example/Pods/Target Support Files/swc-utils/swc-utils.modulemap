@@ -1,0 +1,6 @@
+framework module swc_utils {
+  umbrella header "swc-utils-umbrella.h"
+
+  export *
+  module * { export * }
+}
