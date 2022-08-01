@@ -71,8 +71,8 @@
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		1A11E1E0BCC768F2D3105B4D5846714E /* Pods-swc-utils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swc-utils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1B223EE3289795D4004297F5 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = "../../swc-utils/Classes/Extensions/Bundle.swift"; sourceTree = "<group>"; };
-		1B223EE72897A19B004297F5 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Device.swift; path = "../../swc-utils/Classes/Device/Device.swift"; sourceTree = "<group>"; };
+		1B223EE3289795D4004297F5 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		1B223EE72897A19B004297F5 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2258CA4DA9D705665AB52F1C07C1414B /* swc-utils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "swc-utils.release.xcconfig"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -183,7 +183,8 @@
 			children = (
 				1B223EE3289795D4004297F5 /* Bundle.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = "swc-utils/Classes/Extensions";
 			sourceTree = "<group>";
 		};
 		1B223EE62897A0A8004297F5 /* Device */ = {
@@ -191,7 +192,8 @@
 			children = (
 				1B223EE72897A19B004297F5 /* Device.swift */,
 			);
-			path = Device;
+			name = Device;
+			path = "swc-utils/Classes/Device";
 			sourceTree = "<group>";
 		};
 		22E5EDE28AE7FA209B1518F2450D0A09 /* Pods-swc-utils_Example */ = {
