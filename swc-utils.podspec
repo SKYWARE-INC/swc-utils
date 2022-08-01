@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'swc-utils/Classes/**'
+  s.source_files = 'swc-utils/Classes/**/**/*'
   
   # s.resource_bundles = {
   #   'swc-utils' => ['swc-utils/Assets/*.png']

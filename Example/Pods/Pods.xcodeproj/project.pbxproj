@@ -113,7 +113,7 @@
 		BD8778CBBE9FC74277C042AD800E0FD6 /* swc-utils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "swc-utils.debug.xcconfig"; sourceTree = "<group>"; };
 		BF52E1A5CF15625F3F3C4ED09CD8BFDC /* Pods-swc-utils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swc-utils_Tests-Info.plist"; sourceTree = "<group>"; };
 		C5A7E9A80E43FB7748DE038AC95FA6AC /* Pods-swc-utils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swc-utils_Tests.modulemap"; sourceTree = "<group>"; };
-		C69A856DB7DDC2E022177038D67B8BCB /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "swc-utils/Classes/Utils.swift"; sourceTree = "<group>"; };
+		C69A856DB7DDC2E022177038D67B8BCB /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CC9353C8D5565DE328AEDA2E5E3F9EB1 /* Pods-swc-utils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swc-utils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCE506225B3BC8DDE820FD434433BD5F /* Pods-swc-utils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swc-utils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -194,6 +194,15 @@
 			);
 			name = Device;
 			path = "swc-utils/Classes/Device";
+			sourceTree = "<group>";
+		};
+		1BF86FE02898966F005DF9D4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C69A856DB7DDC2E022177038D67B8BCB /* Utils.swift */,
+			);
+			name = Utils;
+			path = "swc-utils/Classes/Utils";
 			sourceTree = "<group>";
 		};
 		22E5EDE28AE7FA209B1518F2450D0A09 /* Pods-swc-utils_Example */ = {
@@ -289,9 +298,9 @@
 		BCDD12D7725DE755E46388F582D0B57A /* swc-utils */ = {
 			isa = PBXGroup;
 			children = (
+				1BF86FE02898966F005DF9D4 /* Utils */,
 				1B223EE62897A0A8004297F5 /* Device */,
 				1B223EE228979582004297F5 /* Extensions */,
-				C69A856DB7DDC2E022177038D67B8BCB /* Utils.swift */,
 				2506B8EED4A25DABC75828E7E22822C4 /* Pod */,
 				D7D0136B5E88CA6E5C550A06C645492A /* Support Files */,
 			);
