@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/SKYWARE-INC/swc-utils'
+  s.homepage         = 'http://www.skyware.co.kr'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SKYWARE-INC' => 'skyware0704@gmail.com' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'swc-utils/Classes/**/*'
+  s.source_files = 'swc-utils/Classes/**'
   
   # s.resource_bundles = {
   #   'swc-utils' => ['swc-utils/Assets/*.png']
