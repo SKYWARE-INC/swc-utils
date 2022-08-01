@@ -22,7 +22,7 @@ pod 'swc-utils'
 
 ## Author
 
-skyware0704@gmail.com, jjkim@skyware.co.kr
+skyware0704@gmail.com, SKYWARE-INC
 
 ## License
 
