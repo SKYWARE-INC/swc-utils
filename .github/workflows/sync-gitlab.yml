@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for all tags and branches
       - name: Set remote repository
-        env :
+        env:
 	  gitlab_url: ${{GITLAB_URL}}
           gitlab_username: ${{GITLAB_USERNAME}}
           gitlab_token: ${{GITLAB_TOKEN}}
