@@ -17,18 +17,18 @@ jobs:
  
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/swc-utils-master
         with:
           fetch-depth: 0 # Fetch all history for all tags and branches
       - name: Set remote repository
         env:
-	  gitlab_url: ${{secrets.GITLAB_URL}}
+	        gitlab_url: ${{secrets.GITLAB_URL}}
           gitlab_username: ${{secrets.GITLAB_USERNAME}}
           gitlab_token: ${{secrets.GITLAB_TOKEN}}
         run: echo "target url -> $gitlab_url"
         run: |
           git remote add gitlab https://${gitlab_username}:${gitlab_token}@${gitlab_url#https://};
       - name: Force push everthing
-        run: | i
+        run: |
           git push -f --all gitlab;
           git push -f --tags gitlab;
