@@ -1,6 +1,6 @@
 # This is a workflow that syncs everthing on this repository to another repository
  
-name: swc/mobile/swift/swc-utils
+name: swc-utils
  
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: ./.github/workflows/sync-gitlab.yml@v1
         with:
           fetch-depth: 0 # Fetch all history for all tags and branches
       
