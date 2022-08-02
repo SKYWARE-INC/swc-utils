@@ -1,6 +1,6 @@
 # This is a workflow that syncs everthing on this repository to another repository
  
-name: swc-utils
+name: swc/mobile/swift/swc-utils
  
 on:
   push:
