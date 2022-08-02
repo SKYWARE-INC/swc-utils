@@ -25,8 +25,8 @@ jobs:
       - name: Set remote repository
         env: # Retrieve env variable from GiGHub secrets
           gitlab_url: https://gitlab.skyware.co.kr/swc/mobile/swift/swc-utils.git
-          gitlab_username: jaykim
-          gitlab_token: G-4YSf9HFF7Q5ne6zxCH
+          gitlab_username: ${GITLAB_USERNAME}
+          gitlab_token: ${GITLAB_PUSH_TOKEN}
         run: | # 토큰을 조합해서 저렇게 URL을 만들면 비번없이 push가 됩니다.
           git remote add gitlab https://${gitlab_username}:${gitlab_token}@${gitlab_url#https://};
       - name: Force push everthing
