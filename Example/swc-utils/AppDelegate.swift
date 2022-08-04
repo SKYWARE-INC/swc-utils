@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  swc-utils
 //
-//  Created by skyware0704@gmail.com on 08/01/2022.
-//  Copyright (c) 2022 skyware0704@gmail.com. All rights reserved.
+//  Created by <SKYWARE-INC> on 08/01/2022.
+//  Copyright (c) 2022 <SKYWARE-INC> All rights reserved.
 //
 
 import UIKit
