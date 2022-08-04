@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## swc-utils
 
-Copyright (c) 2022 skyware0704@gmail.com <SKYWARE-INC>
+Copyright (c) 2022 skydev@skyware.co.kr <SKYWARE-INC>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

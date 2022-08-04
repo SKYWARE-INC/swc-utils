@@ -1,6 +1,6 @@
 # swc-utils
 
-[![CI Status](https://img.shields.io/travis/skyware0704@gmail.com/swc-utils.svg?style=flat)](https://travis-ci.org/skyware0704@gmail.com/swc-utils)
+[![CI Status](https://img.shields.io/travis/SKYWARE-INC/swc-utils.svg?style=flat)](https://travis-ci.org/skyware0704@gmail.com/swc-utils)
 [![Version](https://img.shields.io/cocoapods/v/swc-utils.svg?style=flat)](https://cocoapods.org/pods/swc-utils)
 [![License](https://img.shields.io/cocoapods/l/swc-utils.svg?style=flat)](https://cocoapods.org/pods/swc-utils)
 [![Platform](https://img.shields.io/cocoapods/p/swc-utils.svg?style=flat)](https://cocoapods.org/pods/swc-utils)
@@ -22,7 +22,7 @@ pod 'swc-utils'
 
 ## Author
 
-skyware0704@gmail.com, SKYWARE-INC
+skydev@skyware.co.kr, SKYWARE-INC
 
 ## License
 
